@@ -62,12 +62,19 @@ main {
 /* HEADER STYLE */
 
 header {
-	height: 80px;
-	background-color:royalblue;
+	background-color: #080b12;
 }
 
 div > header {
 	text-align: right;
+	padding: 2rem;
+}
+
+.upgrade {
+	color: white;
+	border: 1px solid white;
+	border-radius: 50px;
+	padding: 0.5rem 1.5rem;
 }
 
 /* SECTION STYLE */
