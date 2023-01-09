@@ -110,6 +110,10 @@ h3 {
 	margin: 0.5rem;
 }
 
+.profilepic {
+	border-radius: 50%;
+}
+
 .col-2 {
 	min-width: 120px;
 	max-width: 150px;
