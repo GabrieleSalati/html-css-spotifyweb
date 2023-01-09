@@ -26,7 +26,7 @@
 /* ASIDE */
 
 aside {
-	background-color: aliceblue;
+	background-color: black;
 	height: 90vh;
 	flex-grow: 1;
 	display: flex;
@@ -43,6 +43,35 @@ aside {
 	aside {
 		max-width: 50px;
 	}
+}
+
+.logo {
+	width: 10rem;
+	padding: 1rem;
+}
+
+.navlinks {
+	color: #4b4e55;
+	padding: 0.5rem 1rem;
+}
+
+.playlist {
+	color: #4b4e55;
+	padding: 0.5rem 1rem;
+}
+
+.big-icon {
+	font-size: 1.5rem;
+	padding-right: 1rem;
+}
+
+.fa-circle-arrow-down {
+    padding-right: 1rem;
+}
+
+hr {
+	margin: 0rem 1rem;
+	border-color: #4b4e55;
 }
 
 /* MAIN SECTION */
@@ -140,6 +169,7 @@ footer {
 	border: 2px dashed black;
 	height: 10vh;
 	flex-grow: 1;
+	display: flex;
 }
 
 .botcol-mid {
@@ -153,5 +183,31 @@ footer {
     background-color: brown;
 	border: 2px dashed black;
 	height: 10vh;
+	flex-grow: 1;
+}
+
+.half-left {
+    display: flex;
+	flex-grow: 1;
+}
+
+.active {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.activetrack {
+    font-size: 0.8rem;
+	color: white;
+}
+
+.activeartist {
+    font-size: 0.8rem;
+	color: #4b4e55;
+}
+
+.half-right {
+	display: flex;
 	flex-grow: 1;
 }

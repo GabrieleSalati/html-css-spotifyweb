@@ -18,6 +18,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 
+    <!-- ICONS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
 </head>
 
 <body>
@@ -25,25 +29,25 @@
     <main>
         
         <aside>
-           <div>
-             <div>logo</div>
-             <div>link</div>
-             <div>link</div>
-             <div>link</div>
-             <h3>titolo</h3>
-             <div>crea</div>
-             <p>testo</p>
-             <p>testo</p>
-             <p>testo</p>
-             <p>testo</p>
-             <p>testo</p>
-             <p>testo</p>
+           <div class="side-up">
+             <img class="logo" src="./img/logo.svg" alt="Logo">
+             <div class="navlinks"><i class="fa-solid fa-house big-icon"></i>Home</div>
+             <div class="navlinks"><i class="fa-solid fa-magnifying-glass big-icon"></i>Cerca</div>
+             <div class="navlinks"><i class="fa-solid fa-book big-icon"></i>La tua libreria</div>
+             <h3>Playlist</h3>
+             <div class="navlinks"><i class="fa-solid fa-square-plus big-icon"></i>Crea playlist</div>
+             <p class="playlist">Nome playlist</p>
+             <p class="playlist">Nome playlist</p>
+             <p class="playlist">Nome playlist</p>
+             <p class="playlist">Nome playlist</p>
+             <p class="playlist">Nome playlist</p>
+             <p class="playlist">Nome playlist</p>
            </div>
            
-           <div>
-             <div>app</div>
+           <div class="side-down">
+             <div class="navlinks"><i class="fa-solid fa-circle-arrow-down"></i>Installa app</div>
              <hr>
-             <div>user</div>  
+             <div class="navlinks"><i class="fa-solid fa-circle-user big-icon"></i>John Doe</div>  
            </div>
 
         </aside>
@@ -139,7 +143,19 @@
         </div>
     </main>
     <footer>
-        <div class="botcol-left">testo</div>
+        <div class="botcol-left">
+            <div class="half-left">
+                <img src="./img/sinister.jpeg" alt="sinistersmall">
+                <div class="active">
+                    <p class="activetrack">Sinister</p>
+                    <p class="activeartist">Unkown artist</p>
+                </div>
+            </div>
+            <div class="half-right">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-folder"></i>
+            </div>
+        </div>
         <div class="botcol-mid">testo</div>
         <div class="botcol-right">testo</div>
     </footer>
