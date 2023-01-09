@@ -18,3 +18,33 @@
 [class*="col"] [class*="col"] [class*="col"] .box {
 	background-color: skyblue;
 }
+
+/* GENERAL */
+
+/* MAIN STYLE */
+
+/* ASIDE */
+
+aside {
+	background-color: black;
+	height: 90vh;
+}
+
+/* MAIN SECTION */
+
+.main-container {
+	background-color:darkslategrey;
+	height: 90vh;
+}
+
+header {
+	height: 80px;
+	background-color:royalblue;
+}
+
+/* FOOTER STYLE */
+
+footer {
+	height: 10vh;
+	background-color: darkgray;
+}
