@@ -26,20 +26,46 @@
 /* ASIDE */
 
 aside {
-	background-color: black;
+	background-color: aliceblue;
 	height: 90vh;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 /* MAIN SECTION */
 
+main {
+	display: flex;
+	flex-direction: row;
+}
+
 .main-container {
 	background-color:darkslategrey;
 	height: 90vh;
+	flex-grow: 4;
+	overflow-y: scroll;
 }
+
+/* HEADER STYLE */
 
 header {
 	height: 80px;
 	background-color:royalblue;
+}
+
+div > header {
+	text-align: right;
+}
+
+/* SECTION STYLE */
+
+.col-2 {
+	background-color: aqua;
+	height: 120px;
+	max-width: 120px;
+	margin: 0 1rem;
 }
 
 /* FOOTER STYLE */
@@ -47,4 +73,26 @@ header {
 footer {
 	height: 10vh;
 	background-color: darkgray;
+	display: flex;
+}
+
+.botcol-left {
+    background-color: brown;
+	border: 2px dashed black;
+	height: 10vh;
+	flex-grow: 1;
+}
+
+.botcol-mid {
+    background-color: brown;
+	border: 2px dashed black;
+	height: 10vh;
+	flex-grow: 2;
+}
+
+.botcol-right {
+    background-color: brown;
+	border: 2px dashed black;
+	height: 10vh;
+	flex-grow: 1;
 }
