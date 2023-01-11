@@ -55,9 +55,14 @@ aside {
 	padding: 0.5rem 1rem;
 }
 
-.playlist {
-	color: #4b4e55;
+.ul {
+	list-style: none;
 	padding: 0.5rem 1rem;
+}
+
+li {
+	color: #4b4e55;
+	padding: 0.2rem 1rem;
 }
 
 .big-icon {
@@ -92,6 +97,15 @@ main {
 
 header {
 	background-color: #080b12;
+	position: fixed;
+	opacity: 0.7;
+	width: calc(100% - 200px)
+}
+
+@media screen and (max-width: 480px) {
+	header {
+		width: 100%;
+	}
 }
 
 div > header {
@@ -106,7 +120,17 @@ div > header {
 	padding: 0.5rem 1.5rem;
 }
 
+@media screen and (max-width: 480px) {
+	.upgrade {
+		margin-right: 2.5rem;
+	}
+}
+
 /* SECTION STYLE */
+
+section {
+	margin-top: 5rem;
+}
 
 .links {
 	text-align: center;
@@ -160,54 +184,115 @@ h3 {
 
 footer {
 	height: 10vh;
-	background-color: darkgray;
+	background-color: #282828;
 	display: flex;
 }
 
 .botcol-left {
-    background-color: brown;
-	border: 2px dashed black;
 	height: 10vh;
 	flex-grow: 1;
 	display: flex;
 }
 
 .botcol-mid {
-    background-color: brown;
-	border: 2px dashed black;
 	height: 10vh;
 	flex-grow: 2;
+	display: flex;
+	flex-direction: column;
+}
+
+.playeroptions {
+	text-align: center;
+}
+
+.playerprogress {
+	text-align: center;
+}
+
+.bar {
+	height: 1px;
+	width: 300px;
+	border: 1px solid gray;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.progressbar {
+    height: 1px;
+	width: 30%;
+	border: 1px solid green;
+	vertical-align: middle;
 }
 
 .botcol-right {
-    background-color: brown;
-	border: 2px dashed black;
 	height: 10vh;
 	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.volumebar {
+    height: 1px;
+	width: 100px;
+	border: 1px solid gray;
+	display: inline-block;
+}
+
+.volumeprogress {
+	height: 1px;
+	width: 30%;
+	border: 1px solid white;
 }
 
 .half-left {
-    display: flex;
 	flex-grow: 1;
+	display: flex;
 }
 
 .active {
 	display: flex;
-	align-items: center;
 	flex-direction: column;
+	justify-content: center;
 }
 
 .activetrack {
     font-size: 0.8rem;
 	color: white;
+	padding-left: 0.5rem;
 }
 
 .activeartist {
     font-size: 0.8rem;
 	color: #4b4e55;
+	padding-left: 0.5rem;
 }
 
 .half-right {
 	display: flex;
 	flex-grow: 1;
+	align-items: center;
+}
+
+.boticon {
+	color: white;
+	padding: 0.2rem 0.5rem;
+	vertical-align: middle;
+}
+
+.fa-circle-play {
+	color: white;
+	font-size: 1.5rem;
+	padding: 0.2rem 0.5rem;
+	vertical-align: middle;
+}
+
+.time {
+	color: white;
+	vertical-align: middle;
+	font-size: 0.7rem;
+}
+
+.fa-heart {
+	padding: 0.5rem;
 }
