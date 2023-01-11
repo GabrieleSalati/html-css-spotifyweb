@@ -79,6 +79,41 @@ hr {
 	border-color: #4b4e55;
 }
 
+.logosmall {
+	width: 10rem;
+	padding: 0.5rem;
+}
+
+@media screen and (max-width: 480px) {
+	.asidetext {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	ul {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	hr {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.logo {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.logosmall {
+		display: none;
+	}
+}
+
 /* MAIN SECTION */
 
 main {
@@ -210,17 +245,17 @@ footer {
 }
 
 .bar {
-	height: 1px;
+	height: 2px;
 	width: 300px;
-	border: 1px solid gray;
+	background-color: gray;
 	display: inline-block;
 	vertical-align: middle;
 }
 
 .progressbar {
-    height: 1px;
+    height: 2px;
 	width: 30%;
-	border: 1px solid green;
+	background-color: white;
 	vertical-align: middle;
 }
 
@@ -235,14 +270,14 @@ footer {
 .volumebar {
     height: 1px;
 	width: 100px;
-	border: 1px solid gray;
+	background-color: gray;
 	display: inline-block;
 }
 
 .volumeprogress {
 	height: 1px;
 	width: 30%;
-	border: 1px solid white;
+	background-color: white;
 }
 
 .half-left {
@@ -276,14 +311,14 @@ footer {
 
 .boticon {
 	color: white;
-	padding: 0.2rem 0.5rem;
+	padding: 0.5rem 0.5rem;
 	vertical-align: middle;
 }
 
 .fa-circle-play {
 	color: white;
 	font-size: 1.5rem;
-	padding: 0.2rem 0.5rem;
+	padding: 0.5rem 0.5rem;
 	vertical-align: middle;
 }
 
@@ -295,4 +330,9 @@ footer {
 
 .fa-heart {
 	padding: 0.5rem;
+	color: #4b4e55;
+}
+
+.fa-folder {
+	color: #4b4e55;
 }
