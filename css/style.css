@@ -246,7 +246,7 @@ footer {
 
 .bar {
 	height: 2px;
-	width: 300px;
+	width: 50%;
 	background-color: gray;
 	display: inline-block;
 	vertical-align: middle;
@@ -269,7 +269,7 @@ footer {
 
 .volumebar {
     height: 1px;
-	width: 100px;
+	width: 50%;
 	background-color: gray;
 	display: inline-block;
 }
@@ -336,3 +336,38 @@ footer {
 .fa-folder {
 	color: #4b4e55;
 }
+
+@media screen and (max-width: 600px) {
+	.boticon {
+		font-size: 0.7rem;
+		padding: 0.2rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.half-right{
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.activetrack {
+		font-size: 0.5rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.activeartist {
+		font-size: 0.5rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.botcol-right {
+		margin-right: 1rem;
+	}
+}
+
+
+
+
