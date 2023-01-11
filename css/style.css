@@ -281,7 +281,7 @@ footer {
 }
 
 .bar {
-	height: 3px;
+	height: 5px;
 	width: 50%;
 	background-color: gray;
 	display: inline-block;
@@ -289,14 +289,22 @@ footer {
 }
 
 .progressbar {
-    height: 3px;
+    height: 5px;
 	width: 30%;
 	background-color: white;
 	vertical-align: middle;
+    position: relative;
 }
 
 .progressbar::after {
-	content: div;
+	content: "";
+	height: 15px;
+	width: 15px;
+	border-radius: 50px;
+	background-color: whitesmoke;
+	position: absolute;
+	left: 95%;
+	bottom: -5px;
 }
 
 .progressbar:hover {
@@ -312,16 +320,28 @@ footer {
 }
 
 .volumebar {
-    height: 3px;
+    height: 5px;
 	width: 50%;
 	background-color: gray;
 	display: inline-block;
 }
 
 .volumeprogress {
-	height: 3px;
+	height: 5px;
 	width: 30%;
 	background-color: white;
+	position: relative;
+}
+
+.volumeprogress::after {
+	content: "";
+	height: 15px;
+	width: 15px;
+	border-radius: 50px;
+	background-color: whitesmoke;
+	position: absolute;
+	left: 90%;
+	bottom: -5px;
 }
 
 .volumeprogress:hover {
