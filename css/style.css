@@ -230,6 +230,7 @@ h3 {
 	position: relative;
 }
 
+
 .playhover {
 	position: absolute;
 	right: 35%;
@@ -237,12 +238,8 @@ h3 {
 	display: none;
 }
 
-.playhover:hover {
-    display: block;
-}
-
-.card:hover {
-
+.miniature:hover {
+    filter: brightness(1.5);
 }
 
 @media screen and (max-width: 1000px) {
